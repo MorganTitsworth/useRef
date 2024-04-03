@@ -16,7 +16,7 @@ function App() {
     }
 
     useEffect(() => {
-        console.log("We Rendered");
+        console.log(`We have rerendered ${count} times`);
     });
 
     return (
