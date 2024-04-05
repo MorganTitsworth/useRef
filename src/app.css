@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background: url(./image.png);
+  background-size: 100%;
+  position: relative;
+}
+
+.input{
+  position: absolute;
+  top: 15px;
+  display:flex;
+  gap: 1em;
+}
+
+.stickyNotes{
+  padding: 1em;
+  height: 75vh;
+  width: 75%;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  overflow-y: auto;
+  justify-content: center;
+}
+
+.stickyNote {
+  background-color: #fff740;
+  padding: 1em;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 25vh;
+  width: 25vh;
+  font-size: 18px;
+}
